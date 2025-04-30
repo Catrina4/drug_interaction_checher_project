@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/background_gradient">
+
+    <EditText
+        android:id="@+id/drug1Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first drug"
+        android:background="@drawable/rounded_input"
+        android:padding="14dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/drug2Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second drug"
+        android:background="@drawable/rounded_input"
+        android:padding="14dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Interaction"
+        android:backgroundTint="#134033"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:text="Interaction result will appear here"
+       />
+</LinearLayout>
